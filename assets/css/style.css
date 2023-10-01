@@ -97,7 +97,8 @@ img
 {
     display: flex;
     flex-direction: column;
-    width: 30vw;
+    /* width: 30vw; */
+    width: 432px;
     margin: 0px 0px 0px 144px;
     /* gap: 19px; */
 }
@@ -144,7 +145,7 @@ img
 }
 
 /* ================================================================
-                        Story section
+                        story section
 ================================================================= */
 
 .story__txt
@@ -155,6 +156,8 @@ img
     margin-left: 150px;
     margin-right: 200px;
     margin-bottom: 107px;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .story__txt h2
@@ -433,4 +436,4 @@ form
 
 .subscribe__button:hover
 {
-    background-image: linear-gradient(to right, #FF3571, blue )}
+    background-image: linear-gradient(to , #FF3571, blue )}
