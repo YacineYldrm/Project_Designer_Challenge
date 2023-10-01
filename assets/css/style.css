@@ -1,0 +1,432 @@
+/* ================================================================
+                            GENERALS
+================================================================= */
+
+@font-face {
+    font-family: "roboto-rg";
+    src: url(./../font/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto-bd";
+    src: url(./../font/Roboto-Bold.ttf);
+}
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+a
+{
+    color: inherit;
+    text-decoration: none;
+}
+
+body
+{
+    color: black;
+    font-family: "roboto-rg";
+}
+
+img
+{
+    display: block;
+    max-width: 100%;
+}
+
+/* ================================================================
+                            hero section
+================================================================= */
+
+.logo
+{
+    width: 25px;
+    margin: 40px 0px 0px 35px;
+    position: fixed;
+}
+
+.hero__body
+{
+    background: url(./../img/ilustracion_people.png) no-repeat , url(./../img/ilustracion1.png) no-repeat;
+    height: 50vw;
+    background-size: contain;
+    background-position: right;
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.hero__txt
+{
+    display: flex;
+    flex-direction: column;
+    gap: 18vw;
+}
+
+.introduction_txt a
+{
+    text-transform: uppercase;
+    color: #FF3571;
+}
+
+.headline
+{
+    margin: 38px 91px ;
+}
+
+.headline h1
+{
+    font-size: 1.5rem;
+}
+
+.headline p
+{
+    font-size: 0.75rem;
+    color: #0B0C17;
+    /* line-height: 200%; */
+}
+
+.introduction_txt
+{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: 0px 0px 0px 144px;
+    /* gap: 19px; */
+}
+
+.introduction_txt p
+{
+    display: flex;
+    font-size: 1.125rem;
+    line-height: 200%;
+}
+
+.introduction_txt p:nth-of-type(1)
+{
+    width: 40vw;
+}
+
+.icon_rocket
+{
+    display: flex;
+    height: 40px;
+}
+
+.introduction_txt h2
+{
+    font-size: 3.375rem;
+    margin-bottom: 19px;
+} 
+
+.introduction_txt a
+{
+    margin-top: 56px;
+} 
+
+/* ================================================================
+                    main section preview images
+================================================================= */
+
+.preview__img
+{
+    background: url(./../img/images.jpg) no-repeat center / contain;
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 300px;
+}
+
+/* ================================================================
+                        Story section
+================================================================= */
+
+.story__txt
+{
+    display: flex;
+    flex: 1;
+    gap: 0px 80px;
+    margin-left: 150px;
+    margin-right: 200px;
+    margin-bottom: 107px;
+}
+
+.story__txt h2
+{
+    display: flex;
+    align-items: baseline;
+    flex-basis: 10px;
+    font-size: 2.375rem;
+    line-height: 120%;
+    flex-grow: 1.5;
+
+}
+
+.icon__idea
+{
+    display: flex;
+    flex-shrink: 2;
+    width: 60px;
+    height: 60px;
+}
+
+.story__txt p
+{
+    display: flex;
+    font-size: 1.125rem;
+    line-height: 200%;
+    flex-basis: 400px;
+    flex-grow: 2;
+    /* padding-left: 150px; */
+}
+
+/* ================================================================
+                            skillset section
+================================================================= */
+
+.skillset__body
+{
+    margin-left: 162px;
+    margin-bottom: 259px;
+}
+
+.skillset__headline
+{
+    display: flex;
+    flex: 1
+}
+
+.skillset__headline h2
+{
+    display: flex;
+    flex: 2;
+    flex-wrap: wrap;
+    font-size: 2.375rem;
+    line-height: 120%; 
+    margin-left: 56px;
+    margin-bottom: 208px;
+}
+
+.skillset__headline div
+{
+    display: flex;
+    flex-grow: 1;
+}
+
+.skillsets
+{
+    display: flex;
+    gap: 107px 0px;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.skillset__description
+{
+    display: flex;
+    flex-basis: 600px;
+}
+
+.skillset__description h3
+{
+    margin-left: 24px;
+}
+
+.skillset__description h3
+{
+    font-size: 1.17rem;
+    font-family: "roboto-bd";
+    margin-bottom: 16px;
+}
+
+.skillset__description p
+{
+    font-size: 0.875rem;
+    line-height: 200%;
+    width: 305px;
+    margin-left: 24px;
+}
+
+.skillset__description img
+{
+    display: flex;
+    width: 32px;
+    align-self: flex-start;
+}
+
+/* ================================================================
+                        challenge section
+================================================================= */
+
+.challenge__headline
+{
+    display: block;
+    width: 370px;
+    margin-inline: auto;
+    margin-bottom: 151px;;
+}
+
+.challenge__headline h2
+{
+    font-size: 1.75rem;
+    font-family: "roboto-bd";
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.challenge__headline p
+{
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 130%;
+}
+
+/* ================================================================
+                        challenge description
+================================================================= */
+
+.challenges__body
+{
+    margin-bottom: 50px;
+}
+
+
+.challenges
+{
+    display: flex;
+    flex: 1;
+    margin-inline: 10%;
+    margin-bottom: 150px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* gap: 0px 50px; */
+}
+
+.challenge__txt-block
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    flex-basis: 576px;
+    padding-left: 100px;
+}
+
+.challenge__txt-block h2
+{
+    font-size: 3.25rem;
+    font-family: "roboto-bd";
+    color: #DDD;
+    margin-bottom: 43px;
+}
+
+.challenge__txt-block img
+{
+    width: 40px;
+    margin-bottom: 27px;
+}
+
+.challenge__txt-block h3
+{
+    font-size: 1.125rem;
+    font-family: "roboto-bd";
+    margin-bottom: 24px;
+}
+
+.challenge__txt-block p
+{
+    font-size: 0.875rem;
+    margin-bottom: 24px;
+    line-height: 200%;
+}
+
+.challenge__illustration
+{
+    display: flex;
+    flex-basis: 405px;
+    max-width: 550px;
+    flex-shrink: 0;
+    /* height: 28vw; */
+    flex-grow: 3;
+}
+
+.challenge-even
+{
+    flex-direction: row-reverse;
+}
+
+.challenge-even-txt-block
+{
+    padding-right: 40px;
+    padding-left: 0px;
+} 
+
+.challenge__illustration:hover
+{
+    cursor: none;
+}
+
+/* ================================================================
+                                footer
+================================================================= */
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > h2
+{
+    margin: 24px;
+    font-size: 1.8125rem;
+}
+
+footer > p
+{
+    font-size: 14px;
+    margin-bottom: 51px;
+    width: 350px;
+    text-align: center;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.email__input
+{
+    margin-inline: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 656px;
+    height: 86px;
+    margin-bottom: 30px;
+    border: 0px;
+    box-shadow: 0px 0px 20px 0px hsl(0, 0%, 87%, 0.5);
+}
+
+.subscribe__button
+{
+    display: block;
+    text-align: center;
+    background-color: #FF3571;
+    color: white;
+    padding: 19px 82px;
+    width: 250px;
+    border-radius: 4px;
+    margin: 0px auto;
+    border-color: #FF3571;
+    border: 0px;
+    font-size: 1.1875rem;
+    margin-bottom: 150px;
+}
