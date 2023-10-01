@@ -1,5 +1,5 @@
 /* ================================================================
-                            GENERALS
+                            RESET / GENERALS
 ================================================================= */
 
 @font-face {
@@ -425,8 +425,12 @@ form
     width: 250px;
     border-radius: 4px;
     margin: 0px auto;
-    border-color: #FF3571;
+    /* border-color: #FF3571; */
     border: 0px;
     font-size: 1.1875rem;
     margin-bottom: 150px;
 }
+
+.subscribe__button:hover
+{
+    background-image: linear-gradient(to left, #FF3571, blue )}
