@@ -436,4 +436,5 @@ form
 
 .subscribe__button:hover
 {
-    background-image: linear-gradient(to , #FF3571, blue )}
+    background-image: linear-gradient(to right , #FF3571, blue )
+}
